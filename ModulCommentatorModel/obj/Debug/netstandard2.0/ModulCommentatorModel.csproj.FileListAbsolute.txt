@@ -1,0 +1,9 @@
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\bin\Debug\netstandard2.0\ModulCommentatorModel.deps.json
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\bin\Debug\netstandard2.0\ModulCommentatorModel.dll
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\bin\Debug\netstandard2.0\ModulCommentatorModel.pdb
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.csprojAssemblyReference.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.csproj.CoreCompileInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.AssemblyInfoInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.AssemblyInfo.cs
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.dll
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorModel\obj\Debug\netstandard2.0\ModulCommentatorModel.pdb

@@ -1,0 +1,4 @@
+C:\Users\Raphael\source\repos\ModulCommentator\MoulCommentatorViewModel\obj\Debug\netcoreapp2.0\MoulCommentatorViewModel.csprojAssemblyReference.cache
+C:\Users\Raphael\source\repos\ModulCommentator\MoulCommentatorViewModel\obj\Debug\netcoreapp2.0\MoulCommentatorViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\MoulCommentatorViewModel\obj\Debug\netcoreapp2.0\MoulCommentatorViewModel.AssemblyInfoInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\MoulCommentatorViewModel\obj\Debug\netcoreapp2.0\MoulCommentatorViewModel.AssemblyInfo.cs

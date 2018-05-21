@@ -1,0 +1,12 @@
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.deps.json
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.dll
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.pdb
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorModel.dll
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorModel.pdb
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csprojAssemblyReference.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.AssemblyInfoInputs.cache
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.AssemblyInfo.cs
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CopyComplete
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.dll
+C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.pdb
