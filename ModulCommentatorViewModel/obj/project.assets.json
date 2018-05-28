@@ -29,11 +29,23 @@
       "ModulCommentatorModel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RavenDB": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ModulCommentatorModel.dll": {}
         },
         "runtime": {
           "bin/placeholder/ModulCommentatorModel.dll": {}
+        }
+      },
+      "RavenDB/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RavenDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RavenDB.dll": {}
         }
       }
     }
@@ -184,6 +196,11 @@
       "type": "project",
       "path": "../ModulCommentatorModel/ModulCommentatorModel.csproj",
       "msbuildProject": "../ModulCommentatorModel/ModulCommentatorModel.csproj"
+    },
+    "RavenDB/1.0.0": {
+      "type": "project",
+      "path": "../RavenDB_TestQueries/RavenDB/RavenDB.csproj",
+      "msbuildProject": "../RavenDB_TestQueries/RavenDB/RavenDB.csproj"
     }
   },
   "projectFileDependencyGroups": {

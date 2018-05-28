@@ -3,37 +3,33 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using ModulCommentatorModel;
+using RavenDB;
 
 namespace ModulCommentatorViewModel
 {
     public class StudentViewModel : INotifyPropertyChanged
     {
-        Student currentDozent;
+        Student currentStudent;
         StudentModel studentModel;
 
         public StudentViewModel(StudentModel studentModel)
         {
             this.studentModel = studentModel;
 
-            currentDozent = new Student();
-            currentDozent.Key = "1234";
-            currentDozent.Vorname = "Raphael";
-            currentDozent.Nachname = "Heer";
-            currentDozent.Mail = "Gott@Welt.jesus";
-            currentDozent.Username = "faheer";
+            this.currentStudent = new Student("-", "faheer", "Gott@Welt.jesus", "Heer","Raphael");
         }
 
-        public string Key { get { return currentDozent.Key; } set { currentDozent.Key = value; } }
+        public string Key { get { return currentStudent.Id; } set { currentStudent.Id = value; } }
 
-        public string Vorname { get { return currentDozent.Vorname; } set { currentDozent.Vorname = value; } }
+        public string Vorname { get { return currentStudent.vorname; } set { currentStudent.vorname = value; } }
 
-        public string Nachname { get { return currentDozent.Nachname; } set { currentDozent.Nachname = value; } }
+        public string Nachname { get { return currentStudent.nachname; } set { currentStudent.nachname = value; } }
 
-        public string Mail { get { return currentDozent.Mail; } set { currentDozent.Mail = value; } }
+        public string Mail { get { return currentStudent.email; } set { currentStudent.email = value; } }
 
-        public string Kuerzel { get { return currentDozent.Username; } set { currentDozent.Username = value; } }
+        public string Kuerzel { get { return currentStudent.username; } set { currentStudent.username = value; } }
 
-        public List<Student> StudentenListe { get { return this.studentModel.CreateStudentenListe(); } }
+        public List<Student> StudentenListe { get { return this.studentModel.GetStudentenListe(); } }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

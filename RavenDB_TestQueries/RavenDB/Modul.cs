@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RavenDB
 {
-    class Modul
+    public class Modul
     {
         public string Id { get; set; }
         public string bezeichnung { get; set; }

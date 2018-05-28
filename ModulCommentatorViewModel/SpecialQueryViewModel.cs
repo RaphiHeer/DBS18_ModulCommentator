@@ -1,4 +1,5 @@
 ﻿using ModulCommentatorModel;
+using RavenDB;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,9 +11,9 @@ namespace ModulCommentatorViewModel
     public class SpecialQueryViewModel : INotifyPropertyChanged
     {
         private SpecialQueryModel queryModel;
-        private List<Dozent> _dozenten;
-        private List<Dozent> _dozentModulCountList;
-        private Dozent _selectedDozent;
+        private List<Professor> _dozenten;
+        private List<ModulCount> _dozentModulCountList;
+        private Professor _selectedDozent;
 
         private ICommand executeCountQuery;
 
@@ -28,11 +29,12 @@ namespace ModulCommentatorViewModel
         {
             if (this._selectedDozent != null)
             {
-                this.queryModel.getDozentCountQuery(_selectedDozent);
+                _dozentModulCountList = this.queryModel.GetModulCountList(_selectedDozent);
+                this.OnPropertyChanged("ModulCountListe");
             }
         }
 
-        public List<Dozent> DozentenList
+        public List<Professor> DozentenList
         {
             get { return queryModel.GetAllDozents(); }
             set
@@ -44,7 +46,7 @@ namespace ModulCommentatorViewModel
             }
         }
 
-        public Dozent SelectedDozent
+        public Professor SelectedDozent
         {
             get
             {
@@ -53,6 +55,14 @@ namespace ModulCommentatorViewModel
             set
             {
                 _selectedDozent = value;
+            }
+        }
+
+        public List<ModulCount> ModulCountListe
+        {
+            get
+            {
+                return this._dozentModulCountList;
             }
         }
 

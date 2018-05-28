@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RavenDB;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,33 +7,21 @@ namespace ModulCommentatorModel
 {
     public class SpecialQueryModel
     {
-        object operations;
+        DB_Operation operations;
 
-        public SpecialQueryModel(object operations)
+        public SpecialQueryModel(DB_Operation operations)
         {
-
+            this.operations = operations;
         }
 
-        public List<Dozent> GetAllDozents()
+        public List<Professor> GetAllDozents()
         {
-            List<Dozent> dozenten = new List<Dozent>();
-
-            Dozent doz1 = new Dozent();
-            doz1.Key = "1";
-            doz1.Vorname = "Raphi";
-            dozenten.Add(doz1);
-
-            Dozent doz2 = new Dozent();
-            doz2.Key = "2";
-            doz2.Vorname = "Ueli";
-            dozenten.Add(doz2);
-
-            return dozenten;
+            return operations.getAllDozents();
         }
 
-        public List<Dozent> GetDozentCountQuery(Dozent selectedDozent)
+        public List<ModulCount> GetModulCountList(Professor selectedDozent)
         {
-
+            return this.operations.queryModulCount(selectedDozent.Id);
         }
     }
 }

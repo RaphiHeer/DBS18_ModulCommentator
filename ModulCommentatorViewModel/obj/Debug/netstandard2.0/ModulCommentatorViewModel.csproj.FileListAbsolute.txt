@@ -22,3 +22,17 @@ C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debu
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CopyComplete
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.dll
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\RavenDB.exe
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\Raven.Client.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\Sparrow.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\Lambda2Js.Signed.Custom.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Threading.Tasks.Extensions.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Buffers.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\RavenDB.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\RavenDB.exe.config
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Threading.Tasks.Extensions.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Buffers.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml

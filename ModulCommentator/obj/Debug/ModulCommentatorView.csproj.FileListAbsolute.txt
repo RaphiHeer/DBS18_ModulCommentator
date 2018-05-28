@@ -244,3 +244,17 @@ C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\obj\Debug\ModulCo
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\obj\Debug\ModulCommentator.pdb
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\obj\Debug\view\SpecialQueryView.g.cs
 C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\obj\Debug\view\SpecialQueryView.baml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\RavenDB.exe
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\Raven.Client.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\Sparrow.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\Lambda2Js.Signed.Custom.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Buffers.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\RavenDB.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\RavenDB.exe.config
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Buffers.xml
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

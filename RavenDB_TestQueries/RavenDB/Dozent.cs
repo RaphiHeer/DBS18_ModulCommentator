@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RavenDB
 {
-    class Dozenten
+    public class Professor
     {
         public string Id { get; set; }
         public string kuerzel { get; set; }
@@ -14,7 +14,7 @@ namespace RavenDB
         public string nachname { get; set; }
         public string vorname { get; set; }
 
-        public Dozenten(string _id, string _kuerzel, string _email, string _nachname, string _vorname)
+        public Professor(string _id, string _kuerzel, string _email, string _nachname, string _vorname)
         {
             Id = _id;
             kuerzel = _kuerzel;

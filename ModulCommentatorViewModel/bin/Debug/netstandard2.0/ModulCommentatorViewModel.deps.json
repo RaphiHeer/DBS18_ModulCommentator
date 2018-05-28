@@ -23,8 +23,16 @@
         }
       },
       "ModulCommentatorModel/1.0.0": {
+        "dependencies": {
+          "RavenDB": "1.0.0"
+        },
         "runtime": {
           "ModulCommentatorModel.dll": {}
+        }
+      },
+      "RavenDB/1.0.0": {
+        "runtime": {
+          "RavenDB.exe": {}
         }
       }
     }
@@ -50,6 +58,11 @@
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
     },
     "ModulCommentatorModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RavenDB/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

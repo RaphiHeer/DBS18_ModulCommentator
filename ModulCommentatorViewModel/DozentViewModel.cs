@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using ModulCommentatorModel;
+using RavenDB;
 
 namespace ModulCommentatorViewModel
 {
@@ -10,31 +11,26 @@ namespace ModulCommentatorViewModel
     {
         DozentModel dozentModel;
 
-        Dozent currentDozent;
+        Professor currentDozent;
 
         public DozentViewModel(DozentModel model)
         {
             this.dozentModel = model;
 
-            currentDozent = new Dozent();
-            currentDozent.Key = "1234";
-            currentDozent.Vorname = "Raphael";
-            currentDozent.Nachname = "Heer";
-            currentDozent.Mail = "Gott@Welt.jesus";
-            currentDozent.Kuerzel = "her";
+            this.currentDozent = new Professor("-", "MUDO", "muster.dozent@hslu.ch", "Dozent", "Muster" );
         }
 
-        public string Key { get { return currentDozent.Key; } set { currentDozent.Key = value; } }
+        public string Key { get { return currentDozent.Id; } set { currentDozent.Id = value; } }
 
-        public string Vorname { get { return currentDozent.Vorname; } set { currentDozent.Vorname = value; } }
+        public string Vorname { get { return currentDozent.vorname; } set { currentDozent.vorname = value; } }
 
-        public string Nachname { get { return currentDozent.Nachname; } set { currentDozent.Nachname = value; } }
+        public string Nachname { get { return currentDozent.nachname; } set { currentDozent.nachname = value; } }
 
-        public string Mail { get { return currentDozent.Mail; } set { currentDozent.Mail = value; } }
+        public string Mail { get { return currentDozent.email; } set { currentDozent.email = value; } }
 
-        public string Kuerzel { get { return currentDozent.Kuerzel; } set { currentDozent.Kuerzel = value; } }
+        public string Kuerzel { get { return currentDozent.kuerzel; } set { currentDozent.kuerzel = value; } }
 
-        public List<Dozent> DozentenListe { get { return dozentModel.CreateDozentenListe(); } }
+        public List<Professor> DozentenListe { get { return dozentModel.GetDozentenListe(); } }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

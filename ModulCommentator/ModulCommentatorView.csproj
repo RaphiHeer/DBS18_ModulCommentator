@@ -123,6 +123,10 @@
       <Project>{8e438f21-185f-4b3d-bb90-99083984afa4}</Project>
       <Name>ModulCommentatorViewModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RavenDB_TestQueries\RavenDB\RavenDB.csproj">
+      <Project>{a9b078ac-74a4-4243-9499-cf4641cf9a17}</Project>
+      <Name>RavenDB</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

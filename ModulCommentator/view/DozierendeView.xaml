@@ -55,14 +55,8 @@
                     
                 </StackPanel>
                 <StackPanel DockPanel.Dock="Bottom">
-                    <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Path=DozentenListe}" Height="218" IsReadOnly="True">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="Key" Binding="{Binding Path=Key}"></DataGridTextColumn>
-                            <DataGridTextColumn Header="Vorname" Binding="{Binding Path=Vorname}"></DataGridTextColumn>
-                            <DataGridTextColumn Header="Nachname" Binding="{Binding Path=Nachname}"></DataGridTextColumn>
-                            <DataGridTextColumn Header="E-Mail" Binding="{Binding Path=Mail}"></DataGridTextColumn>
-                            <DataGridTextColumn Header="Kuerzel" Binding="{Binding Path=Kuerzel}"></DataGridTextColumn>
-                        </DataGrid.Columns>
+                    <DataGrid AutoGenerateColumns="True" ItemsSource="{Binding Path=DozentenListe}" Height="218" IsReadOnly="True">
+                        
                     </DataGrid>
                 </StackPanel>
                 

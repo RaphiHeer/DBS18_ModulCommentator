@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using ModulCommentator.view;
 using ModulCommentatorModel;
 using ModulCommentatorViewModel;
+using RavenDB;
 
 namespace ModulCommentator
 {
@@ -27,13 +28,15 @@ namespace ModulCommentator
         {
             InitializeComponent();
 
-            DozentViewModel dozentViewModel = new DozentViewModel(new DozentModel(new Object()));
+            DB_Operation operation = new DB_Operation();
+
+            DozentViewModel dozentViewModel = new DozentViewModel(new DozentModel(operation));
             UCDozierende.Content = new DozierendeView(dozentViewModel);
 
-            StudentViewModel studentViewModel = new StudentViewModel(new StudentModel(new Object()));
+            StudentViewModel studentViewModel = new StudentViewModel(new StudentModel(operation));
             UCStudierende.Content = new StudentView(studentViewModel);
 
-            SpecialQueryViewModel specialQueryViewModel = new SpecialQueryViewModel(new SpecialQueryModel(new object()));
+            SpecialQueryViewModel specialQueryViewModel = new SpecialQueryViewModel(new SpecialQueryModel(operation));
             UCSpecialQuery.Content = new SpecialQueryView(specialQueryViewModel);
         }
     }
