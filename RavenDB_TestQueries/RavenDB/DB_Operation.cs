@@ -26,9 +26,10 @@ namespace RavenDB
 
         public void addStudent(string id, string username, string email, string nachname, string vorname)
         {
+            int s_id = Int32.Parse(getAllStudents().Last().Id.Split('/')[1]) + 1;
             using (IDocumentSession session = store.OpenSession())
             {
-                Student newStudent = new Student(id, username, email, nachname, vorname);
+                Student newStudent = new Student("student/"+s_id, username, email, nachname, vorname);
                 session.Store(newStudent);
                 session.SaveChanges();
             }
@@ -52,9 +53,10 @@ namespace RavenDB
 
         public void addDozent(string id, string kuerzel, string email, string nachname, string vorname)
         {
+            int d_id = Int32.Parse(getAllDozents().Last().Id.Split('/')[1]) + 1;
             using (IDocumentSession session = store.OpenSession())
             {
-                Professor newDozent = new Professor(id, kuerzel, email, nachname, vorname);
+                Professor newDozent = new Professor("professor/"+d_id, kuerzel, email, nachname, vorname);
                 session.Store(newDozent);
                 session.SaveChanges();
             }
@@ -67,9 +69,10 @@ namespace RavenDB
 
         public void addModul(string id, string bezeichnung, string kuerzel, string verantwortlicher)
         {
+            int m_id = Int32.Parse(getAllModuls().Last().Id.Split('/')[1]) + 1;
             using (IDocumentSession session = store.OpenSession())
             {
-                Modul newModul = new Modul(id, bezeichnung, kuerzel, verantwortlicher);
+                Modul newModul = new Modul("modul/"+m_id, bezeichnung, kuerzel, verantwortlicher);
                 session.Store(newModul);
                 session.SaveChanges();
             }
@@ -82,9 +85,10 @@ namespace RavenDB
 
         public void addComment(string id, string text, string geschrieben_von, string modul, List<string> dozenten)
         {
+            int c_id = Int32.Parse(getAllComments().Last().Id.Split('/')[1]) + 1;
             using (IDocumentSession session = store.OpenSession())
             {
-                Comment newComment = new Comment(id, text, geschrieben_von, modul, dozenten);
+                Comment newComment = new Comment("comment/"+c_id, text, geschrieben_von, modul, dozenten);
                 session.Store(newComment);
                 session.SaveChanges();
             }

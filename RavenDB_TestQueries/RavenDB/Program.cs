@@ -12,19 +12,19 @@ namespace RavenDB
         {
             DB_Operation operation = new DB_Operation();
 
-            /*Student student1 = new Student("Student|", "stu1", "stu1@stud.hslu.ch", "Test", "Student1");
-            Student student2 = new Student("Student|", "stu2", "stu2@stud.hslu.ch", "Test", "Student2");
-
+            Student student1 = new Student("", "stu3", "stu1@stud.hslu.ch", "Test", "Student1");
+            Student student2 = new Student("", "stu4", "stu2@stud.hslu.ch", "Test", "Student2");
+            
             operation.addStudent(student1);
             operation.addStudent(student2);
-
-            Dozenten dozent1 = new Dozenten("Dozent|", "doz1", "doz1@stud.hslu.ch", "Test", "Dozent1");
-            Dozenten dozent2 = new Dozenten("Dozent|", "doz2", "doz2@stud.hslu.ch", "Test", "Dozent2");
+            
+            Professor dozent1 = new Professor("Dozent|", "doz1", "doz1@stud.hslu.ch", "Test", "Dozent1");
+            Professor dozent2 = new Professor("Dozent|", "doz2", "doz2@stud.hslu.ch", "Test", "Dozent2");
 
             operation.addDozent(dozent1);
             operation.addDozent(dozent2);
 
-            List<Dozenten> dozenten = operation.getAllDozents();
+            List<Professor> dozenten = operation.getAllDozents();
 
             Modul modul1 = new Modul("Modul|", "TestModul1", "TM1", dozenten.First().Id);
             Modul modul2 = new Modul("Modul|", "TestModul2", "TM2", dozenten.Last().Id);
@@ -36,17 +36,17 @@ namespace RavenDB
             List<Modul> module = operation.getAllModuls();
             List<string> dozentenById = new List<string>();
 
-            foreach(Dozenten dozent in dozenten)
+            foreach(Professor dozent in dozenten)
             {
                 dozentenById.Add(dozent.Id);
             }
 
-            Kommentar comment = new Kommentar("Kommentar|", "Test1", studenten.Last().Id, module.First().Id, dozentenById);            
+            Comment comment = new Comment("Kommentar|", "Test1", studenten.Last().Id, module.First().Id, dozentenById);            
 
             operation.addComment(comment);
-            */
-            List<Modul> module = operation.getAllModuls();
-            List<Professor> dozenten = operation.getAllDozents();
+            
+            //List<Modul> module = operation.getAllModuls();
+            //List<Professor> dozenten = operation.getAllDozents();
             /*
             foreach (string text in operation.queryComments(module.First().Id))
             {
