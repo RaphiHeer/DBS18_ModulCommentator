@@ -8,10 +8,14 @@ namespace ModulCommentatorViewModel
 {
     public class DozentViewModel : INotifyPropertyChanged
     {
+        DozentModel dozentModel;
+
         Dozent currentDozent;
 
-        public DozentViewModel()
+        public DozentViewModel(DozentModel model)
         {
+            this.dozentModel = model;
+
             currentDozent = new Dozent();
             currentDozent.Key = "1234";
             currentDozent.Vorname = "Raphael";
@@ -30,7 +34,7 @@ namespace ModulCommentatorViewModel
 
         public string Kuerzel { get { return currentDozent.Kuerzel; } set { currentDozent.Kuerzel = value; } }
 
-        public List<Dozent> DozentenListe { get { return Dozent.CreateDozentenListe(); } }
+        public List<Dozent> DozentenListe { get { return dozentModel.CreateDozentenListe(); } }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

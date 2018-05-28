@@ -9,9 +9,12 @@ namespace ModulCommentatorViewModel
     public class StudentViewModel : INotifyPropertyChanged
     {
         Student currentDozent;
+        StudentModel studentModel;
 
-        public StudentViewModel()
+        public StudentViewModel(StudentModel studentModel)
         {
+            this.studentModel = studentModel;
+
             currentDozent = new Student();
             currentDozent.Key = "1234";
             currentDozent.Vorname = "Raphael";
@@ -30,7 +33,7 @@ namespace ModulCommentatorViewModel
 
         public string Kuerzel { get { return currentDozent.Username; } set { currentDozent.Username = value; } }
 
-        public List<Student> StudentenListe { get { return Student.CreateStudentenListe(); } }
+        public List<Student> StudentenListe { get { return this.studentModel.CreateStudentenListe(); } }
 
         public event PropertyChangedEventHandler PropertyChanged;
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentator\obj\Debug\
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\obj\Debug\
 ModulCommentator
 none
 false
 DEBUG;TRACE
-C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentator\App.xaml
-3627742464
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentator\App.xaml
+41535400342
 
-111059050873
-120-1170185387
-MainWindow.xaml;view\DozierendeView.xaml;view\StudentView.xaml;
+12-641361529
+1211874577414
+MainWindow.xaml;view\DozierendeView.xaml;view\SpecialQueryView.xaml;view\StudentView.xaml;
 
-False
+True
 

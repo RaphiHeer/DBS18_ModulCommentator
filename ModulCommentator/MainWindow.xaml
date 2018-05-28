@@ -21,7 +21,7 @@
                 <UserControl Name="UCKommentare"></UserControl>
             </TabItem>
             <TabItem Header="Spezielle Abfragen">
-                <UserControl Name="UCSpecialQueries"></UserControl>
+                <UserControl Name="UCSpecialQuery"></UserControl>
             </TabItem>
         </TabControl>
 

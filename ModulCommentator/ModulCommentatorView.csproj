@@ -57,6 +57,9 @@
     <Compile Include="view\DozierendeView.xaml.cs">
       <DependentUpon>DozierendeView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view\SpecialQueryView.xaml.cs">
+      <DependentUpon>SpecialQueryView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\StudentView.xaml.cs">
       <DependentUpon>StudentView.xaml</DependentUpon>
     </Compile>
@@ -73,6 +76,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="view\DozierendeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\SpecialQueryView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -108,6 +115,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModulCommentatorModel\ModulCommentatorModel.csproj">
+      <Project>{6033E196-D51B-425E-AC36-A0DCA4E93397}</Project>
+      <Name>ModulCommentatorModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModulCommentatorViewModel\ModulCommentatorViewModel.csproj">
       <Project>{8e438f21-185f-4b3d-bb90-99083984afa4}</Project>
       <Name>ModulCommentatorViewModel</Name>

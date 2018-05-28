@@ -10,3 +10,15 @@ C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Deb
 C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CopyComplete
 C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.dll
 C:\Users\Raphael\source\repos\ModulCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.deps.json
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorViewModel.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorModel.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\bin\Debug\netstandard2.0\ModulCommentatorModel.pdb
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csprojAssemblyReference.cache
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CoreCompileInputs.cache
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.AssemblyInfoInputs.cache
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.AssemblyInfo.cs
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.csproj.CopyComplete
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.dll
+C:\Users\rapha\source\repos\ModuleCommentator\ModulCommentatorViewModel\obj\Debug\netstandard2.0\ModulCommentatorViewModel.pdb

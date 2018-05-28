@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ModulCommentator.view;
+using ModulCommentatorModel;
 using ModulCommentatorViewModel;
 
 namespace ModulCommentator
@@ -26,11 +27,14 @@ namespace ModulCommentator
         {
             InitializeComponent();
 
-            DozentViewModel dozentViewModel = new DozentViewModel();
+            DozentViewModel dozentViewModel = new DozentViewModel(new DozentModel(new Object()));
             UCDozierende.Content = new DozierendeView(dozentViewModel);
 
-            StudentViewModel studentViewModel = new StudentViewModel();
+            StudentViewModel studentViewModel = new StudentViewModel(new StudentModel(new Object()));
             UCStudierende.Content = new StudentView(studentViewModel);
+
+            SpecialQueryViewModel specialQueryViewModel = new SpecialQueryViewModel(new SpecialQueryModel(new object()));
+            UCSpecialQuery.Content = new SpecialQueryView(specialQueryViewModel);
         }
     }
 }
