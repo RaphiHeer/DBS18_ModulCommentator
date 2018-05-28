@@ -75,6 +75,7 @@
     <Compile Include="DB_Operation.cs" />
     <Compile Include="DocumentStoreHolder.cs" />
     <Compile Include="Modul.cs" />
+    <Compile Include="ModulCount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />

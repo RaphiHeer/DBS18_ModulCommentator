@@ -177,24 +177,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raphael\\.nuget\\packages\\": {},
+    "C:\\Users\\Luca\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raphael\\source\\repos\\ModulCommentator\\RavenDBConnector\\RavenDBConnector.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Documents\\repo\\DBS\\Projekt\\RavenDBConnector\\RavenDBConnector.csproj",
       "projectName": "RavenDBConnector",
-      "projectPath": "C:\\Users\\Raphael\\source\\repos\\ModulCommentator\\RavenDBConnector\\RavenDBConnector.csproj",
-      "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raphael\\source\\repos\\ModulCommentator\\RavenDBConnector\\obj\\",
+      "projectPath": "C:\\Users\\Luca\\Documents\\repo\\DBS\\Projekt\\RavenDBConnector\\RavenDBConnector.csproj",
+      "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luca\\Documents\\repo\\DBS\\Projekt\\RavenDBConnector\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Raphael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

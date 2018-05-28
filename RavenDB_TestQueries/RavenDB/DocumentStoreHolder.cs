@@ -14,7 +14,7 @@ namespace RavenDB
             IDocumentStore store = new DocumentStore()
             {
                 Urls = new[] { "http://10.177.1.204:8080" },
-                Database = "test"
+                Database = "Kommunikationssystem"
             }.Initialize();
 
             return store;

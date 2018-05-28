@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RavenDB
 {
-    class Kommentar
+    class Comment
     {
         public string Id { get; set; }
         public string text { get; set; }
@@ -14,7 +14,7 @@ namespace RavenDB
         public string modul { get; set; }
         public List<string> Dozenten { get; set; }
 
-        public Kommentar(string _id, string _text, string _student_id, string _modul_id, List<string> _dozenten_id)
+        public Comment(string _id, string _text, string _student_id, string _modul_id, List<string> _dozenten_id)
         {
             Id = _id;
             text = _text;
