@@ -57,6 +57,9 @@
     <Compile Include="view\DozierendeView.xaml.cs">
       <DependentUpon>DozierendeView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="view\ModuleView.xaml.cs">
+      <DependentUpon>ModuleView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="view\SpecialQueryView.xaml.cs">
       <DependentUpon>SpecialQueryView.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="view\DozierendeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\ModuleView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

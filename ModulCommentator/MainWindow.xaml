@@ -8,9 +8,6 @@
         Title="Module Commentator Desktop Client" Height="450" Width="800">
     <Grid>
         <TabControl TabStripPlacement="Left">
-            <TabItem Header="Module">
-                <UserControl Name="UCModule"></UserControl>
-            </TabItem>
             <TabItem Header="Dozierende">
                 <UserControl Name="UCDozierende"></UserControl>
             </TabItem>
@@ -19,6 +16,9 @@
             </TabItem>
             <TabItem Header="Kommentare">
                 <UserControl Name="UCKommentare"></UserControl>
+            </TabItem>
+            <TabItem Header="Module">
+                <UserControl Name="UCModule"></UserControl>
             </TabItem>
             <TabItem Header="Spezielle Abfragen">
                 <UserControl Name="UCSpecialQuery"></UserControl>

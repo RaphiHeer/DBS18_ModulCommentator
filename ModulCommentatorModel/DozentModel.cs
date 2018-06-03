@@ -20,6 +20,11 @@ namespace ModulCommentatorModel
             return db_operation.getAllDozents();
         }
 
+        public void CreateProfessor(Professor doz)
+        {
+            this.db_operation.addDozent(doz);
+        }
+
         public Professor createDozentFromKey(string key)
         {
             Professor doz = db_operation.getDozent(key);

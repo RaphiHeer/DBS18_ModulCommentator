@@ -216,11 +216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorViewModel\\ModulCommentatorViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorViewModel\\ModulCommentatorViewModel.csproj",
       "projectName": "ModulCommentatorViewModel",
-      "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorViewModel\\ModulCommentatorViewModel.csproj",
+      "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorViewModel\\ModulCommentatorViewModel.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorViewModel\\obj\\",
+      "outputPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -239,8 +239,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorModel\\ModulCommentatorModel.csproj": {
-              "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorModel\\ModulCommentatorModel.csproj"
+            "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorModel\\ModulCommentatorModel.csproj": {
+              "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorModel\\ModulCommentatorModel.csproj"
             }
           }
         }

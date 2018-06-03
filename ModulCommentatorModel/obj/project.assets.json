@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorModel\\ModulCommentatorModel.csproj",
+      "projectUniqueName": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorModel\\ModulCommentatorModel.csproj",
       "projectName": "ModulCommentatorModel",
-      "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorModel\\ModulCommentatorModel.csproj",
+      "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorModel\\ModulCommentatorModel.csproj",
       "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\ModulCommentatorModel\\obj\\",
+      "outputPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\ModulCommentatorModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -221,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\RavenDB_TestQueries\\RavenDB\\RavenDB.csproj": {
-              "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator\\RavenDB_TestQueries\\RavenDB\\RavenDB.csproj"
+            "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\RavenDB_TestQueries\\RavenDB\\RavenDB.csproj": {
+              "projectPath": "C:\\Users\\rapha\\source\\repos\\ModuleCommentator - Kopie (2)\\RavenDB_TestQueries\\RavenDB\\RavenDB.csproj"
             }
           }
         }

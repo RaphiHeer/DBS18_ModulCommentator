@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <StackPanel>
-        <TextBlock Style="{StaticResource TitleStyle}">Dozierende</TextBlock>
+        <TextBlock Style="{StaticResource TitleStyle}">Studierende</TextBlock>
         <DockPanel Style="{StaticResource UserControlStackPanelStyle}">
             <StackPanel DockPanel.Dock="Top">
                 <Grid>
@@ -27,30 +27,27 @@
                         <RowDefinition />
                         <RowDefinition />
                         <RowDefinition />
-                    </Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
 
                     <Label Grid.Column="1" Grid.Row="0" Style="{StaticResource LabelStyle}" >Key</Label>
                     <Label Grid.Column="1" Grid.Row="1" Style="{StaticResource LabelStyle}" >Vorname</Label>
                     <Label Grid.Column="1" Grid.Row="2" Style="{StaticResource LabelStyle}" >Nachname</Label>
                     <Label Grid.Column="1" Grid.Row="3" Style="{StaticResource LabelStyle}" >E-Mail</Label>
 
-                    <Label Grid.Column="4" Grid.Row="0" Style="{StaticResource LabelStyle}">Kürzel</Label>
-                    <Label Grid.Column="4" Grid.Row="1" Style="{StaticResource LabelStyle}">Anzahl Module</Label>
-                    <Label Grid.Column="4" Grid.Row="2" Style="{StaticResource LabelStyle}">Anzahl Kommentare</Label>
+                    <Label Grid.Column="1" Grid.Row="4" Style="{StaticResource LabelStyle}">Username</Label>
 
 
-                    <TextBlock Grid.Column="2" Grid.Row="0" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Key}" Foreground="Gray"></TextBlock>
+                     <TextBlock Grid.Column="2" Grid.Row="0" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Key}" Foreground="Gray"></TextBlock>
                     <TextBox Grid.Column="2" Grid.Row="1" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Vorname}" ></TextBox>
                     <TextBox Grid.Column="2" Grid.Row="2" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Nachname}"></TextBox>
                     <TextBox Grid.Column="2" Grid.Row="3" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Mail}"></TextBox>
 
-                    <TextBox Grid.Column="5" Grid.Row="0" Text="{Binding Path=Kuerzel}"></TextBox>
-                    <TextBlock Grid.Column="5" Grid.Row="1"></TextBlock>
-                </Grid>
+                        <TextBox Grid.Column="2" Grid.Row="4" Style="{StaticResource TextInputStyle}" Text="{Binding Path=Username}"></TextBox>
+                    </Grid>
                 <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
-                    <Button Width="100" Height="25" Margin="20,0">Speichern</Button>
-                    <Button Width="100" Height="25" Margin="20,0">Neu erstellen</Button>
-                    <Button Width="100" Height="25" Margin="20,0">Felder leeren</Button>
+                        <Button Width="100" Height="25" Margin="20,0"  Command="{Binding CreateStudent}">Neu erstellen</Button>
+                        <Button Width="100" Height="25" Margin="20,0"  Command="{Binding ClearFields}">Felder leeren</Button>
                 </StackPanel>
 
             </StackPanel>

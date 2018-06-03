@@ -19,6 +19,11 @@ namespace ModulCommentatorModel
             return db_operation.getAllStudents();
         }
 
+        public void CreateStudent(Student stud)
+        {
+            db_operation.addStudent(stud);
+        }
+
         public Student CreateStudentFromKey(string key)
         {
             Student stud = db_operation.getStudent(key);
